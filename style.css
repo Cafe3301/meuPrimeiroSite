@@ -14,6 +14,7 @@ body {
   }
   
   .logo-principal {
+    position: static;
     width: 102px;
     height: 32px;
   }
@@ -45,11 +46,8 @@ body {
     background-color: rgba(236, 214, 196, 0.53);
   }
   .banner{
-    position:static;
-    width: 1440px;
-    height: 508px;
-    left: 50px;
-    top: 0px;
+    position:relative;
+    width: 100%;
   }
   .titulo{
     font-family: 'DM Sans', sans-serif;
